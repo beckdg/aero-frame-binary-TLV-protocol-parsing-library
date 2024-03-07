@@ -1,0 +1,23 @@
+# Build artifacts
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.out
+aeroframe_parser
+**/generated_seeds.exe
+
+# IDE / editor
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
