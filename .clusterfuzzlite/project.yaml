@@ -1,0 +1,13 @@
+language: c++
+fuzz_targets:
+  - packet_fuzzer
+  - compression_fuzzer
+  - session_fuzzer
+  - fragment_fuzzer
+  - protocol_fuzzer
+  - routing_fuzzer
+  - queue_fuzzer
+  - compress_fuzzer
+  - cipher_fuzzer
+  - telemetry_fuzzer
+  - ingest_fuzzer
